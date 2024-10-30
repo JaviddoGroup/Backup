@@ -1,0 +1,2599 @@
+@media screen and (max-width: 600600px) {
+
+    .banners {
+        display: block;
+    }
+
+    .banner-slider-mobile {
+        display: none;
+    }
+
+    .main-banner-background-image {
+        position: absolute;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main-banner-background-image img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+    /* баннеры на главном меню ниже */
+    .opened-object span {
+        font-size: 18px;
+    }
+
+    .opened-object h2 {
+        font-size: 28px;
+    }
+
+    .opened-object p {
+        font-size: 18px;
+    }
+
+    .banners {
+        /* background-image: url('../media/main-banner/banner-bg.jpg'); */
+        background-repeat: no-repeat;
+        background-size: 1900px 600px;
+        position: relative;
+        top: 250px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 800px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        width: 48% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.png");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+
+
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 250px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 680px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 13%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 36px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 36px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        align-items: center;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 36px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+
+
+
+}
+
+@media screen and (max-width: 2560px) {
+
+    /* баннеры на главном меню ниже */
+    .opened-object span {
+        font-size: 18px;
+    }
+
+    .opened-object h2 {
+        font-size: 28px;
+    }
+
+    .opened-object p {
+        font-size: 18px;
+    }
+
+    .banners {
+        /* background-image: url('../media/main-banner/banner-bg.jpg'); */
+        background-repeat: no-repeat;
+        background-size: 1900px 600px;
+        position: relative;
+        top: 250px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 800px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        width: 48% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 1100px 740px;
+
+
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 250px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 680px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 13%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 36px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 36px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        align-items: center;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 36px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+
+
+
+}
+
+@media screen and (max-width: 2000px) {
+    .opened-object span {
+        font-size: 16px;
+    }
+
+    .opened-object h2 {
+        font-size: 22px;
+    }
+
+    .opened-object p {
+        font-size: 16px;
+    }
+
+    .banners {
+        position: relative;
+        top: 200px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 48% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 835px 560px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 835px 560px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 835px 560px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 835px 560px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 835px 560px;
+
+
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 150px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 510px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 13%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .opened-object span {
+        font-size: 16px;
+    }
+
+    .opened-object h2 {
+        font-size: 22px;
+    }
+
+    .opened-object p {
+        font-size: 16px;
+    }
+
+    .banners {
+        position: relative;
+        top: 200px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 650px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 52% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 840px 565px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 840px 565px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 840px 565px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 840px 565px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 840px 565px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 150px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 510px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .opened-object span {
+        font-size: 14px;
+    }
+
+    .opened-object h2 {
+        font-size: 18px;
+    }
+
+    .opened-object p {
+        font-size: 14px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 650px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 52% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 150px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 460px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .opened-object span {
+        font-size: 14px;
+    }
+
+    .opened-object h2 {
+        font-size: 18px;
+    }
+
+    .opened-object p {
+        font-size: 14px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 650px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 52% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 150px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 460px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .opened-object span {
+        font-size: 14px;
+    }
+
+    .opened-object h2 {
+        font-size: 18px;
+    }
+
+    .opened-object p {
+        font-size: 14px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 650px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 52% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 750px 503px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 150px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 460px;
+        left: 15px;
+    }
+
+    .open-button img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .opened-object span {
+        font-size: 12px;
+    }
+
+    .opened-object h2 {
+        font-size: 16px;
+    }
+
+    .opened-object p {
+        font-size: 12px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 650px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 50% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 600px 402px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 600px 402px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 600px 402px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 600px 402px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 600px 402px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 120px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 360px;
+        left: 15px;
+        width: 50%;
+    }
+
+    .open-button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .opened-object span {
+        font-size: 12px;
+    }
+
+    .opened-object h2 {
+        font-size: 16px;
+    }
+
+    .opened-object p {
+        font-size: 12px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 52% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 15vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 120px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 360px;
+        left: 15px;
+        width: 50%;
+    }
+
+    .open-button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .opened-object span {
+        font-size: 12px;
+    }
+
+    .opened-object h2 {
+        font-size: 16px;
+    }
+
+    .opened-object p {
+        font-size: 12px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 66% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 20vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 90px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 360px;
+        left: 15px;
+        width: 50%;
+    }
+
+    .open-button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .opened-object span {
+        font-size: 12px;
+    }
+
+    .opened-object h2 {
+        font-size: 16px;
+    }
+
+    .opened-object p {
+        font-size: 12px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 115% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 25vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 90px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 360px;
+        left: 15px;
+        width: 50%;
+    }
+
+    .open-button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .opened-object span {
+        font-size: 12px;
+    }
+
+    .opened-object h2 {
+        font-size: 16px;
+    }
+
+    .opened-object p {
+        font-size: 12px;
+    }
+
+    .banners {
+        position: relative;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        /* overflow: hidden; */
+    }
+
+    .banner {
+        /* overflow: hidden; */
+        margin: 0 2%;
+        transition: 1s;
+
+    }
+
+    .active-banner {
+        cursor: pointer;
+        width: 260% !important;
+        transition: 0.5s;
+    }
+
+    .active-banner .opened-object {
+        display: block;
+        transition: 0.5s;
+
+    }
+
+    .first-up {
+        width: 10%;
+        transition: 0.5s;
+
+        background-image: url("../storage/home-page/main-banner/China.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+    }
+
+
+    .second-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Azerbaijan.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+
+
+    }
+
+    .third-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Hellper.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+
+
+    }
+
+    .fourth-down {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+        margin-top: 45px;
+
+
+    }
+
+    .five-up {
+        width: 10%;
+        background-image: url("../storage/home-page/main-banner/Zeppard.webp");
+        background-repeat: no-repeat;
+        background-size: 595px 395px;
+    }
+
+    .opened-object {
+        display: none;
+        width: 25vw;
+        padding: 15px 0 0 15px;
+        transition: 0.5s;
+        position: relative;
+        top: 90px;
+        color: white;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .object-link {
+        display: flex;
+        align-items: center;
+    }
+
+    .object-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .object-link img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .open-button {
+        position: relative;
+        top: 370px;
+        left: 3px;
+        width: 50%;
+    }
+
+
+    .open-button img {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* баннеры на главном меню выше */
+    .second-section {
+        margin-top: 20%;
+        padding-left: 170px;
+    }
+
+    .second-section h2 {
+        font-size: 30px;
+    }
+
+    .third-section {
+        margin-top: 100px;
+        padding-left: 170px;
+    }
+
+    .third-section h2 {
+        font-size: 30px;
+    }
+
+    .fourth-section {
+        align-items: center;
+        margin: 25px 0;
+        display: flex;
+        padding-left: 170px;
+        padding-right: 170px;
+        justify-content: space-between;
+    }
+
+    .fourth-section img {
+        width: 55px;
+    }
+
+    .fourth-section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .time-line-name {
+        display: flex;
+    }
+
+    .time-line-img img {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .second-section {
+        padding: 0;
+        text-align: center;
+    }
+
+    .banners {
+        display: none;
+    }
+
+    .banner-slider-mobile {
+        margin-top: 20.5%;
+        display: block;
+    }
+
+    #swiper3 {
+        width: 100%;
+        height: 60%;
+        overflow-x: hidden;
+    }
+
+    .swiper-container.mobile-banner-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-wrapper.mobile-banner-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide.mobile-banner-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .swiper-slide.mobile-banner-slide::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .mobile-banner-content {
+        color: white;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 220px;
+    }
+
+    .mobile-banner-content h2 {
+        font-size: 2.5em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-content p {
+        font-size: 0.7em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff5722;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .swiper-pagination.mobile-banner-pagination {
+        bottom: 2.5%;
+        text-align: center;
+    }
+
+    .swiper-button-next.mobile-banner-button-next,
+    .swiper-button-prev.mobile-banner-button-prev {
+        color: white;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FC6E27;
+    }
+
+    .third-section {
+        text-align: center;
+        padding: 0;
+    }
+
+    .fourth-section {
+        text-align: center;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .fourth-section img {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banners {
+        display: none;
+    }
+
+    .banner-slider-mobile {
+        margin-top: 21.5%;
+        display: block;
+    }
+
+    #swiper3 {
+        width: 100%;
+        height: 60%;
+        overflow-x: hidden;
+    }
+
+    .swiper-container.mobile-banner-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-wrapper.mobile-banner-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide.mobile-banner-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 85vh;
+    }
+
+    .swiper-slide.mobile-banner-slide::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .mobile-banner-content {
+        color: white;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 220px;
+    }
+
+    .mobile-banner-content h2 {
+        font-size: 2.5em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-content p {
+        font-size: 0.7em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff5722;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .swiper-pagination.mobile-banner-pagination {
+        bottom: 1.5%;
+        text-align: center;
+    }
+
+    .swiper-button-next.mobile-banner-button-next,
+    .swiper-button-prev.mobile-banner-button-prev {
+        color: white;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FC6E27;
+    }
+
+    .fourth-section {
+        text-align: center;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .fourth-section img {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banners {
+        display: none;
+    }
+
+    .banner-slider-mobile {
+        margin-top: 22%;
+        display: block;
+    }
+
+    #swiper3 {
+        width: 100%;
+        height: 60%;
+        overflow-x: hidden;
+    }
+
+    .swiper-container.mobile-banner-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-wrapper.mobile-banner-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide.mobile-banner-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 85vh;
+    }
+
+    .swiper-slide.mobile-banner-slide::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .mobile-banner-content {
+        color: white;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 220px;
+    }
+
+    .mobile-banner-content h2 {
+        font-size: 2.5em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-content p {
+        font-size: 0.7em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff5722;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .swiper-pagination.mobile-banner-pagination {
+        bottom: 1.5%;
+        text-align: center;
+    }
+
+    .swiper-button-next.mobile-banner-button-next,
+    .swiper-button-prev.mobile-banner-button-prev {
+        color: white;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FC6E27;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .banners {
+        display: none;
+    }
+
+    .banner-slider-mobile {
+        margin-top: 22%;
+        display: block;
+    }
+
+    #swiper3 {
+        width: 100%;
+        height: 60%;
+        overflow-x: hidden;
+    }
+
+    .swiper-container.mobile-banner-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-wrapper.mobile-banner-wrapper {
+        display: flex;
+    }
+
+    .swiper-slide.mobile-banner-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 85vh;
+    }
+
+    .swiper-slide.mobile-banner-slide::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .mobile-banner-content {
+        color: white;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        background-image: url("../media/main-banner/banner-background-img.webp");
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 220px;
+    }
+
+    .mobile-banner-content h2 {
+        font-size: 2.5em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-content p {
+        font-size: 0.7em;
+        margin: 0.5em 0;
+    }
+
+    .mobile-banner-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff5722;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .swiper-pagination.mobile-banner-pagination {
+        bottom: 0.5%;
+        text-align: center;
+    }
+
+    .swiper-button-next.mobile-banner-button-next,
+    .swiper-button-prev.mobile-banner-button-prev {
+        color: white;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FC6E27;
+    }
+}
